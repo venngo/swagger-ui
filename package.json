@@ -80,7 +80,7 @@
     "classnames": "^2.5.1",
     "css.escape": "1.5.1",
     "deep-extend": "0.6.0",
-    "dompurify": "^3.3.3",
+    "dompurify": "^3.4.0",
     "ieee754": "^1.2.1",
     "immutable": "^3.x.x",
     "js-file-download": "^0.4.12",
@@ -207,7 +207,8 @@
     "enzyme": {
       "cheerio": "=1.0.0-rc.12"
     },
-    "axios": "1.15.2"
+    "axios": "1.15.2",
+    "follow-redirects": "1.16.0"
   },
   "config": {
     "deps_check_dir": ".deps_check"
