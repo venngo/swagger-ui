@@ -76,6 +76,7 @@
     "@babel/runtime-corejs3": "^7.27.1",
     "@scarf/scarf": "=1.4.0",
     "base64-js": "^1.5.1",
+    "brace-expansion": "=5.0.6",
     "buffer": "^6.0.3",
     "classnames": "^2.5.1",
     "css.escape": "1.5.1",
@@ -202,7 +203,8 @@
   },
   "overrides": {
     "@pmmmwh/react-refresh-webpack-plugin": {
-      "webpack-dev-server": "$webpack-dev-server"
+      "webpack-dev-server": "$webpack-dev-server",
+      "brace-expansion": "5.0.6"
     },
     "enzyme": {
       "cheerio": "=1.0.0-rc.12"
